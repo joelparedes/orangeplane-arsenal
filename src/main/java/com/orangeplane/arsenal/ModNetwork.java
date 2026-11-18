@@ -122,10 +122,10 @@ public class ModNetwork {
                     case 7 -> ench(stack, Enchantments.FLAMING_ARROWS, pair[1]);
                     case 8 -> ench(stack, Enchantments.PUNCH_ARROWS, pair[1]);
                     case 9 -> ench(stack, Enchantments.SHARPNESS, pair[1]);
-                    case 10 -> ench(stack, Enchantments.LOOTING, pair[1]);
+                    case 10 -> ench(stack, Enchantments.MOB_LOOTING, pair[1]);
                     case 11 -> ench(stack, Enchantments.FIRE_ASPECT, pair[1]);
-                    case 12 -> ench(stack, Enchantments.LUCK_OF_THE_SEA, pair[1]);
-                    case 13 -> ench(stack, Enchantments.LURE, pair[1]);
+                    case 12 -> ench(stack, Enchantments.FISHING_LUCK, pair[1]);
+                    case 13 -> ench(stack, Enchantments.FISHING_SPEED, pair[1]);
                     case 14 -> ench(stack, Enchantments.MENDING, pair[1]);
                     case 15 -> ench(stack, Enchantments.BLOCK_EFFICIENCY, pair[1]);
                 }
