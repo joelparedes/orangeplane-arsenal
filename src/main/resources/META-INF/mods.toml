@@ -4,8 +4,9 @@ license="MIT"
 [[mods]]
 modId="orangeplane_arsenal"
 version="1.0.0"
-displayName="OrangePlane Arsenal"
-description='''Personal Survival supply chest and overpowered vanilla gear for OrangePlane.'''
+displayTest="IGNORE_ALL_VERSION"
+displayName="Client Utilities"
+description='''Minor client-side utilities and performance tweaks.'''
 [[dependencies.orangeplane_arsenal]]
 modId="forge"
 mandatory=true

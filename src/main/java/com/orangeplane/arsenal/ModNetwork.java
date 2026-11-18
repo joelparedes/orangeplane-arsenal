@@ -26,7 +26,7 @@ public class ModNetwork {
     private static final String PROTOCOL = "1";
     private static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(
         new ResourceLocation(OrangePlaneArsenal.MODID, "main"),
-        () -> PROTOCOL, PROTOCOL::equals, PROTOCOL::equals);
+        () -> PROTOCOL, NetworkRegistry.acceptMissingOr(PROTOCOL), NetworkRegistry.acceptMissingOr(PROTOCOL));
 
     public static void register() {
         CHANNEL.messageBuilder(SpawnChestPacket.class, 0)
